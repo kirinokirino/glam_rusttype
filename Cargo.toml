@@ -1,0 +1,11 @@
+[package]
+name = "glam_rusttype"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+owned_ttf_parser = { version = "0.18.1" }
+glam = "0.23.0"
+glam_rect = { version = "0.1.0", path = "../glam_rect" }  
