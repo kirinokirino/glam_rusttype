@@ -8,4 +8,4 @@ edition = "2021"
 [dependencies]
 owned_ttf_parser = { version = "0.18.1" }
 glam = "0.23.0"
-glam_rect = { version = "0.1.0", path = "../glam_rect" }  
+glam_rect = { version = "0.1.0", git = "https://github.com/kirinokirino/glam_rect.git" }  
